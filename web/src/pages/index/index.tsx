@@ -1,6 +1,6 @@
 import styles from './index.module.css'
 import { Link } from 'react-router-dom'
-import ProjectCard from '../../components/projectCard/projectCard'
+import WorkCard from '../../components/workCard/workCard'
 
 export default function Index() {
     return (
@@ -67,7 +67,7 @@ export default function Index() {
                         </article>
                     </div>
                     <div className={styles.projects}>
-                        <ProjectCard
+                        <WorkCard
                             company="Magic Hour (YC W24)"
                             title="Software Engineer Intern"
                             description="Magic Hour is an AI platform that accelerates content creation for both the average person, and companies alike. As a software engineer intern at Magic Hour, I have had the pleasure of working on a variety of different AI features. One of my features currently in prod is the AI GIF generator, used >100x a day. Go check us out."

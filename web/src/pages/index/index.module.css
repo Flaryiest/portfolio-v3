@@ -45,6 +45,33 @@
     gap: 2rem;
 }
 
+.navLink {
+    transition: color 0.5s ease;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.navLink::after {
+    content: "";
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: currentColor;
+    transition: width 0.3s ease;
+}
+
+.navLink:hover::after {
+    width: 100%;
+}
+
+.navLink:hover {
+    color: rgb(80, 80, 80);
+
+}
+
 .content {
     width: 100%;
     margin-top: 3rem;
