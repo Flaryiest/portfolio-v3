@@ -1,0 +1,55 @@
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 0.2rem;
+    padding-left: 32px;
+    padding-top: 2rem;
+    border-top: 1px solid rgb(224, 224, 224);
+}
+
+.title {
+    height: 100%;
+    display: flex;
+    font-weight: 550;
+    font-size: 2rem;
+}
+
+.nav {
+    display: flex;
+    flex-grow: 1;
+    padding-left: 8px;
+}
+
+.navLinks {
+    display: flex;
+    flex-grow: 1;
+    gap: 2rem;
+}
+
+.navLink {
+    transition: color 0.5s ease;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.navLink::after {
+    content: '';
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: currentColor;
+    transition: width 0.3s ease;
+}
+
+.navLink:hover::after {
+    width: 100%;
+}
+
+.navLink:hover {
+    color: rgb(80, 80, 80);
+}

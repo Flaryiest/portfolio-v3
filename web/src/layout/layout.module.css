@@ -1,0 +1,50 @@
+.page {
+    display: flex;
+    min-width: 100dvw;
+    min-height: 100dvh;
+    justify-content: center;
+}
+
+.centered {
+    display: flex;
+    width: 800px;
+    max-width: 50dvw;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100%;
+    box-sizing: border-box;
+    padding: 2rem 0rem;
+    padding-bottom: 5rem;
+}
+
+.leftWall {
+    width: 32px;
+    min-height: 100%;
+    border: 1px solid rgb(224, 224, 224);
+    border-bottom: none;
+    border-top: none;
+    position: relative;
+    background-image: repeating-linear-gradient(
+        -45deg,
+        transparent,
+        transparent 16px,
+        rgb(224, 224, 224) 16px,
+        rgb(224, 224, 224) 17px
+    );
+}
+
+.rightWall {
+    width: 32px;
+    min-height: 100%;
+    border: 1px solid rgb(224, 224, 224);
+    border-bottom: none;
+    border-top: none;
+    position: relative;
+    background-image: repeating-linear-gradient(
+        -45deg,
+        transparent,
+        transparent 16px,
+        rgb(224, 224, 224) 16px,
+        rgb(224, 224, 224) 17px
+    );
+}
