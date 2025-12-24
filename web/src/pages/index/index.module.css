@@ -55,7 +55,7 @@
 }
 
 .navLink::after {
-    content: "";
+    content: '';
     position: absolute;
     bottom: -4px;
     left: 0;
@@ -71,7 +71,6 @@
 
 .navLink:hover {
     color: rgb(80, 80, 80);
-
 }
 
 .content {

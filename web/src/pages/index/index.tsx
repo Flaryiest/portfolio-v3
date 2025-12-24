@@ -91,7 +91,6 @@ export default function Index() {
                             startDate="OCT 2023"
                             endDate="PRESENT"
                         />
-                        
                     </div>
                 </div>
                 <div className={styles.rightWall}></div>
