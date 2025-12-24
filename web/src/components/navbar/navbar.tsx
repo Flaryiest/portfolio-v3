@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 export default function Navbar() {
     return      <header className={styles.header}>
-                        <h1 className={styles.title}>Eric Zuo</h1>
+                        <Link to="/"><h1 className={styles.title}>Eric Zuo</h1></Link>
                         <nav className={styles.nav}>
                             <ul className={styles.navLinks}>
                                 <li>
@@ -24,11 +24,19 @@ export default function Navbar() {
                                 </li>
                                 <li>
                                     <Link
-                                        to="/Eric_Zuo_Resume.pdf"
+                                        to="/artifacts"
+                                        className={styles.navLink}
+                                    >
+                                        Artifacts
+                                    </Link>
+                                </li>
+                                <li>
+                                    <a
+                                        href="/Eric_Zuo_Resume.pdf"
                                         className={styles.navLink}
                                     >
                                         Resume
-                                    </Link>
+                                    </a>
                                 </li>
                             </ul>
                         </nav>
