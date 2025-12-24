@@ -1,5 +1,9 @@
-import {createBrowserRouter, createRoutesFromElements, Route} from "react-router-dom";
-import Index from "./pages/index";
+import {
+    createBrowserRouter,
+    createRoutesFromElements,
+    Route,
+} from 'react-router-dom'
+import Index from './pages/index'
 
 export const router = createBrowserRouter(
     createRoutesFromElements(
@@ -7,4 +11,4 @@ export const router = createBrowserRouter(
             <Route index element={<Index />} />
         </Route>
     )
-);
+)
