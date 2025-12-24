@@ -14,6 +14,7 @@
     min-height: 100%;
     box-sizing: border-box;
     padding: 2rem 0rem;
+    padding-bottom: 5rem;
 }
 
 .header {
@@ -31,12 +32,13 @@
     height: 100%;
     display: flex;
     font-weight: 550;
-    font-size: 1.4rem;
+    font-size: 2rem;
 }
 
 .nav {
     display: flex;
     flex-grow: 1;
+    padding-left: 8px;
 }
 
 .navLinks {
@@ -116,9 +118,14 @@
     margin-left: -32px;
     margin-right: -32px;
     padding: 48px;
+    font-size: 0.95rem;
+    font-weight: 400;
 }
 
 .projects {
     margin-top: 2rem;
     padding: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
 }

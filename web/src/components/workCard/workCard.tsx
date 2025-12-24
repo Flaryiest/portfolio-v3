@@ -1,4 +1,4 @@
-import styles from './projectCard.module.css'
+import styles from './workCard.module.css'
 
 export default function ProjectCard({
     company,

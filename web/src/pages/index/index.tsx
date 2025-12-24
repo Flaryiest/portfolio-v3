@@ -75,6 +75,23 @@ export default function Index() {
                             startDate="AUG 2025"
                             endDate="DEC 2025"
                         />
+                        <WorkCard
+                            company="Heartline.App"
+                            title="Software Engineer Intern"
+                            description="Heartline is an AI-powered mental health app that provides users with personalized support and resources. As a software engineer intern at Heartline, I worked on developing new features and improving the user experience of the app. I also collaborated with the design team to create a more intuitive and engaging interface. Primarily worked on the intervention pipeline, with React Native and Golang."
+                            link="https://heartline.app"
+                            startDate="APR 2025"
+                            endDate="AUG 2025"
+                        />
+                        <WorkCard
+                            company="Futurlign"
+                            title="Co-Founder & CTO"
+                            description="Futurlign is a Non-profit organization dedicated to AI education and accessibility. After co-founding Futurlign in 2023 and serving as the CTO, we have educated 300+ students on AI. Looking to expand our scope of operations and host a hackathon soon."
+                            link="https://futurlign.org"
+                            startDate="OCT 2023"
+                            endDate="PRESENT"
+                        />
+                        
                     </div>
                 </div>
                 <div className={styles.rightWall}></div>
