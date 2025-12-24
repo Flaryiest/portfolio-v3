@@ -7,25 +7,85 @@
 
 .centered {
     display: flex;
-    width: 1024px;
-    max-width: 70dvw;
+    width: 800px;
+    max-width: 50dvw;
     flex-direction: column;
     align-items: center;
     min-height: 100%;
     box-sizing: border-box;
-    padding: 2rem 1rem;
+    padding: 2rem 0rem;
 }
 
 .header {
     width: 100%;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    flex-direction: column;
+    gap: 0.2rem;
+    padding-left: 32px;
 }
 
-.logoContainer {
+.title {
     height: 100%;
     display: flex;
-    font-weight: 500;
-    font-size: 1.5rem;
+    font-weight: 550;
+    font-size: 1.4rem;
+}
+
+.nav {
+    display: flex;
+    flex-grow: 1;
+}
+
+.navLinks {
+    display: flex;
+    flex-grow: 1;
+    gap: 2rem;
+}
+
+.content {
+    width: 100%;
+    margin-top: 3rem;
+}
+
+.leftWall {
+    width: 32px;
+    min-height: 100%;
+    border: 1px solid rgb(224, 224, 224);
+    border-bottom: none;
+    border-top: none;
+    position: relative;
+    background-image: repeating-linear-gradient(
+        -45deg,
+        transparent,
+        transparent 16px,
+        rgb(224, 224, 224) 16px,
+        rgb(224, 224, 224) 17px
+    );
+}
+
+.rightWall {
+    width: 32px;
+    min-height: 100%;
+    border: 1px solid rgb(224, 224, 224);
+    border-bottom: none;
+    border-top: none;
+    position: relative;
+    background-image: repeating-linear-gradient(
+        -45deg,
+        transparent,
+        transparent 16px,
+        rgb(224, 224, 224) 16px,
+        rgb(224, 224, 224) 17px
+    );
+}
+
+.intro {
+    border: 1px solid rgb(224, 224, 224);
+    border-left: none;
+    border-right: none;
+    margin-left: -32px;
+    margin-right: -32px;
+    padding: 48px;
+
 }
