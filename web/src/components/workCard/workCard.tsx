@@ -1,6 +1,6 @@
 import styles from './workCard.module.css'
 
-export default function ProjectCard({
+export default function WorkCard({
     company,
     title,
     description,
