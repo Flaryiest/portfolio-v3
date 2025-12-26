@@ -3,6 +3,40 @@
     margin-top: 3rem;
 }
 
+.socials {
+    display: flex;
+    margin-bottom: 2rem;
+    box-sizing: border-box;
+    width: 100%;
+    justify-content: space-between;
+    padding: 8px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.socialLink {
+    transition: transform 0.2s ease;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    border: 2px solid rgb(150, 150, 150);
+}
+
+.socialLink:not(:last-child) {
+    border-right: none;
+}
+
+
+.socialLink:hover {
+    transform: translateY(-2px);
+}
+
+.socialLink svg {
+    display: block;
+}
+
 .intro {
     border: 1px solid rgb(224, 224, 224);
     border-left: none;
