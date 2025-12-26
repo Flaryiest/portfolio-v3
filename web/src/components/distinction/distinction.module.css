@@ -1,0 +1,16 @@
+.distinction {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.9rem;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.title {
+    font-weight: 600;
+}
+
+.description {
+    color: #444;
+}

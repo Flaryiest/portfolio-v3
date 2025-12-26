@@ -48,10 +48,33 @@
     font-weight: 400;
 }
 
-.projects {
+.work {
     margin-top: 2rem;
+    margin-bottom: 2rem;
     padding: 16px;
     display: flex;
     flex-direction: column;
     gap: 3rem;
+
+}
+
+.distinctions {
+    margin-top: 1rem;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    box-sizing: border-box;
+    gap: 1rem;
+    border: 1px solid rgb(224, 224, 224);
+    border-left: none;
+    border-right: none;
+}
+
+.distinctionsTitle {
+    padding-left: 8px;
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+    font-weight: 650;
 }

@@ -1,6 +1,6 @@
 import styles from './index.module.css'
 import WorkCard from '../../components/workCard/workCard'
-
+import Distinction from '../../components/distinction/distinction'
 export default function Index() {
     return (
         <>
@@ -56,7 +56,7 @@ export default function Index() {
                             </p>
                         </article>
                     </div>
-                    <div className={styles.projects}>
+                    <div className={styles.work}>
                         <WorkCard
                             company="Magic Hour (YC W24)"
                             title="Software Engineer Intern"
@@ -80,6 +80,54 @@ export default function Index() {
                             link="https://futurlign.org"
                             startDate="OCT 2023"
                             endDate="PRESENT"
+                        />
+                    </div>
+                    <div className={styles.distinctions}>
+                        <h3 className={styles.distinctionsTitle}>Small but unique parts of my life</h3>
+                        <Distinction 
+                            title="Hack The Change 2024"
+                            description="1st Place Winner. Won $5 000 ->"
+                            link="https://devpost.com/software/changepod"
+                        />
+                        <Distinction 
+                            title="MiniMedi Hacks 2024"
+                            description="1st Place Winner. 300 Participants ->"
+                            link="https://devpost.com/software/lifepod"
+                        />
+                        <Distinction 
+                            title="GenTalks"
+                            description="Web Developer ->"
+                            link="https://gentalks.vercel.app/"
+                        />
+                        <Distinction 
+                            title="Calgary Science Spelling Challenge"
+                            description="IT Director ->"
+                            link="https://csschallenge.org"
+                        />
+                        <Distinction 
+                            title="Elvaria Music Foundation"
+                            description="IT Director ->"
+                            link="https://elvaria.ca/"
+                        />
+                        <Distinction 
+                            title="Undercity Hackathon"
+                            description="Flown out to SF for a hackathon ->"
+                            link="https://www.youtube.com/watch?v=kaEFv7e49mo"
+                        />
+                        <Distinction 
+                            title="Honours with Distinction"
+                            description="Every semester, every year"
+                            link=""
+                        />
+                        <Distinction 
+                            title="Vex Robotics"
+                            description="3388A ->"
+                            link="https://www.robotevents.com/teams/V5RC/3388A"
+                        />
+                        <Distinction 
+                            title="Ascend"
+                            description="Catch me building on Saturdays ->"
+                            link="https://www.ascendcalgary.ca/"
                         />
                     </div>
                 </div>
