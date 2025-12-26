@@ -19,11 +19,7 @@ export default function Navbar() {
                             Projects
                         </Link>
                     </li>
-                    <li>
-                        <Link to="/artifacts" className={styles.navLink}>
-                            Artifacts
-                        </Link>
-                    </li>
+
                     <li>
                         <a
                             href="/Eric_Zuo_Resume.pdf"
