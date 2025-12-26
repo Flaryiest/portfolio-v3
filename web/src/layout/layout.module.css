@@ -8,7 +8,7 @@
 .centered {
     display: flex;
     width: 800px;
-    max-width: 50dvw;
+    max-width: max(50dvw, 600px);
     flex-direction: column;
     align-items: center;
     min-height: 100%;
@@ -47,4 +47,23 @@
         rgb(224, 224, 224) 16px,
         rgb(224, 224, 224) 17px
     );
+}
+
+@media (max-width: 600px) {
+    .page {
+        overflow-y: scroll;
+    }
+
+    .centered {
+        width: 100dvw;
+        padding: 1rem 1rem 5rem 1rem;
+    }
+
+    .leftWall {
+        display: none;
+    }
+
+    .rightWall {
+        display: none;
+    }
 }
