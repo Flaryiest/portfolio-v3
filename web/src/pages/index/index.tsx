@@ -7,6 +7,7 @@ export default function Index() {
             <div className={styles.page}>
                 <div className={styles.leftWall}></div>
                 <div className={styles.centered}>
+                    <h1 className={styles.visuallyHidden}>Eric Zuo - Portfolio</h1>
                     <div className={styles.content}>
                         <div className={styles.socials}>
                             <a
@@ -14,6 +15,7 @@ export default function Index() {
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className={styles.socialLink}
+                                aria-label="LinkedIn"
                             >
                                 <svg
                                     width="24"
@@ -30,6 +32,7 @@ export default function Index() {
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className={styles.socialLink}
+                                aria-label="X (Twitter)"
                             >
                                 <svg
                                     width="24"
@@ -46,6 +49,7 @@ export default function Index() {
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className={styles.socialLink}
+                                aria-label="GitHub"
                             >
                                 <svg
                                     width="24"
@@ -60,6 +64,7 @@ export default function Index() {
                             <a
                                 href="mailto:ericmzuo1@gmail.com"
                                 className={styles.socialLink}
+                                aria-label="Email"
                             >
                                 <svg
                                     width="24"
@@ -99,6 +104,7 @@ export default function Index() {
                         </article>
                     </div>
                     <div className={styles.work}>
+                        <h2 className={styles.visuallyHidden}>Work Experience</h2>
                         <WorkCard
                             company="Magic Hour (YC W24)"
                             title="Software Engineer Intern"
@@ -125,9 +131,9 @@ export default function Index() {
                         />
                     </div>
                     <div className={styles.distinctions}>
-                        <h3 className={styles.distinctionsTitle}>
+                        <h2 className={styles.distinctionsTitle}>
                             Small but unique parts of my life
-                        </h3>
+                        </h2>
                         <Distinction
                             title="Hack The Change 2024"
                             description="1st Place Winner. Won $5 000 ->"

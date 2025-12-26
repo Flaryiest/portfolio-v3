@@ -6,10 +6,10 @@ export default function Layout() {
         <div className={styles.container}>
             <div className={styles.page}>
                 <div className={styles.leftWall}></div>
-                <div className={styles.centered}>
+                <main className={styles.centered}>
                     <Navbar />
                     <Outlet />
-                </div>
+                </main>
                 <div className={styles.rightWall}></div>
             </div>
         </div>
