@@ -1,0 +1,7 @@
+# robots.txt for ericzuo.ca
+
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://ericzuo.ca/sitemap.xml
