@@ -1,6 +1,21 @@
-import styles from "./projectCard.module.css"
-export default function ProjectCard({imgSrc, title, description, technologies, url, year}: {imgSrc: string, title: string, description: string, technologies: string[], url: string, year: string}) {
-    return <div className={styles.cardContainer}>
+import styles from './projectCard.module.css'
+export default function ProjectCard({
+    imgSrc,
+    title,
+    description,
+    technologies,
+    url,
+    year,
+}: {
+    imgSrc: string
+    title: string
+    description: string
+    technologies: string[]
+    url: string
+    year: string
+}) {
+    return (
+        <div className={styles.cardContainer}>
             <div className={styles.card}>
                 <div className={styles.imageContainer}>
                     <img src={imgSrc} alt={title} className={styles.image} />
@@ -12,7 +27,7 @@ export default function ProjectCard({imgSrc, title, description, technologies, u
                     </div>
                     <p className={styles.description}>{description}</p>
                     <div className={styles.techContainer}>
-                        {technologies.join(", ")}
+                        {technologies.join(', ')}
                     </div>
                     <a href={url} className={styles.projectLink}>
                         link ↗
@@ -20,5 +35,5 @@ export default function ProjectCard({imgSrc, title, description, technologies, u
                 </div>
             </div>
         </div>
-    
+    )
 }
